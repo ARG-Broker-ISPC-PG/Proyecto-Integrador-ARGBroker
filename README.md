@@ -1,24 +1,23 @@
 # Proyecto-Integrador-ARGBroker
 Proyecto integrador solicitado por el Instituto Superior Politecnico  Córdoba
 
-**Proposito del proyecto:  **
+**Proposito del proyecto:**
 
 Trabajar de forma organizada con el equipo para cumplir con los objetivos establecido de forma eficiente y aplicando los conocimientos adquiridos dentro de nuestra participación en las instancias brindadas. 
 
-**Participantes: **
+**Participantes:**
 
-<span style="color: green">
 
-Esperon Paul Yasser 
-Cocconi Fabricio Andrés 
-Delosanto Adriel 
-Gibaut Carrizo Fabricio Agustin 
-Carrizo Amparo 
-Gonzalez Lara Daniel esteban 
-Gutierrez Francisco 
-</span>
+- Esperon Paul Yasser 
+- Cocconi Fabricio Andrés 
+- Delosanto Adriel 
+- Gibaut Carrizo Fabricio Agustin 
+- Carrizo Amparo 
+- Gonzalez Lara Daniel esteban 
+- Gutierrez Francisco 
 
-**Objeticos del Proyecto: **
+
+**Objeticos del Proyecto:**
 
 **Programación I**
 
@@ -84,35 +83,35 @@ la base de datos.
 Basándose en los requerimientos funcionales del proyecto y aplicando la legislación
 revisada en la cursada:
 
-1· Describir cómo el grupo se conforma como instrumento legal (Empresa, Socios, CEO,
+1. Describir cómo el grupo se conforma como instrumento legal (Empresa, Socios, CEO,
 Empleados) y si tendrán un contrato con que cláusulas.
-2· Describir quiénes y ante quien deben matricularse a nivel provincial para ejercer la
+2. Describir quiénes y ante quien deben matricularse a nivel provincial para ejercer la
 Profesión.
-3· Describir que requerimientos deben cumplir el código programado y las bases de
+3. Describir que requerimientos deben cumplir el código programado y las bases de
 datos según la legislación vigente
-4· Enumerar los pasos para que ARGBroker sea parte del Registro Nacional de
+4. Enumerar los pasos para que ARGBroker sea parte del Registro Nacional de
 software.
-5· Si un integrante del grupo no realiza el trámite de matriculación, que pena le
+5. Si un integrante del grupo no realiza el trámite de matriculación, que pena le
 corresponde a nivel provincial.
-6· Si el código es replicado, describir como la Ley de Propiedad Intelectual puede
+6. Si el código es replicado, describir como la Ley de Propiedad Intelectual puede
 salvaguardar a ARGBroker.
-7· Si un integrante del grupo divulga los datos de la base de datos interna, describir
+7. Si un integrante del grupo divulga los datos de la base de datos interna, describir
 como legalmente deberían accionar los demás.
-8· Si otro integrante del grupo reutiliza el código para fines personales, describir como legalmente
+8. Si otro integrante del grupo reutiliza el código para fines personales, describir como legalmente
 deberían accionar los demás según la Legislación de la Provincia de Córdoba y el
 Código Penal Argentino.
-9· Si otro integrante del grupo reutiliza el código para fines personales a nivel
+9. Si otro integrante del grupo reutiliza el código para fines personales a nivel
 internacional, describir qué instrumento legal respalda a ARGBroker.
-10· Si la base de datos es adulterada de manera externa, a nivel nacional, describir qué
+10. Si la base de datos es adulterada de manera externa, a nivel nacional, describir qué
 instrumento legal respalda a ARGBroker.
-11· Si los datos de la base de datos son adulterados de manera externa, a nivel
+11. Si los datos de la base de datos son adulterados de manera externa, a nivel
 internacional, describir qué instrumento legal respalda a ARGBroker.
-12· Cuando los programadores de ARGBroker incurren en una negligencia, a que
+12. Cuando los programadores de ARGBroker incurren en una negligencia, a que
 instrumento legal se acude y quien.
-13· Cómo ARGBroker debe implementar seguridad según la Ley de Protección de Datos
+13. Cómo ARGBroker debe implementar seguridad según la Ley de Protección de Datos
 Personales.
-14· Si el cliente decide reemplazar a ARGBroker por otro proveedor, describir cómo se
+14. Si el cliente decide reemplazar a ARGBroker por otro proveedor, describir cómo se
 debe actuar de manera ética ante el cliente y los colegas.
-15· Si un usuario denuncia a ARGBroker por divulgación de sus datos personales, a que
+15. Si un usuario denuncia a ARGBroker por divulgación de sus datos personales, a que
 legislación recurrió el mismo y como ARGBroker puede respaldarse jurídicamente.
 
