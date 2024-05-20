@@ -17,7 +17,7 @@ Trabajar de forma organizada con el equipo para cumplir con los objetivos establ
 - Gutierrez Francisco 
 
 
-**Objeticos del Proyecto:**
+**Objetivos del Proyecto:**
 
 **Programación I**
 
