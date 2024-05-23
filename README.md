@@ -110,10 +110,6 @@ internacional, describir qué instrumento legal respalda a ARGBroker.
 instrumento legal se acude y quien.
 13. Cómo ARGBroker debe implementar seguridad según la Ley de Protección de Datos
 Personales.
-Cifrado de datos.
-Control de acceso.
-Auditorías de seguridad.
-
 14. Si el cliente decide reemplazar a ARGBroker por otro proveedor, describir cómo se
 debe actuar de manera ética ante el cliente y los colegas.
 15. Si un usuario denuncia a ARGBroker por divulgación de sus datos personales, a que
