@@ -16,7 +16,7 @@ Trabajar de forma organizada con el equipo para cumplir con los objetivos establ
 - Carrizo Amparo 
 - Gonzalez Lara Daniel esteban 
 - Gutierrez Francisco 
-- Bustos Leonardo Martin
+- Bustos Leonardo Martin 
 
 
 
