@@ -1,7 +1,10 @@
 # Proyecto-Integrador-ARGBroker
-muy pronto yba oagina web-
-Proyecto integrador solicitado por el Instituto Superior Politecnico  Córdoba
-muy pronto se implementara una pagina web.
+-Implementaremos a medida de que pase el tiempo una pagina web utilizando html y css
+para presentar dicho proyecto con lo hizo cada uno y su respectivo rol.
+
+**Proyecto integrador solicitado por el Instituto Superior Politecnico  Córdoba.
+TECNICATURA SUPERIOR EN DESARROLLO DE SOFTWARE.**
+
 **Proposito del proyecto:**
 
 Trabajar de forma organizada con el equipo para cumplir con los objetivos establecido de forma eficiente y aplicando los conocimientos adquiridos dentro de nuestra participación en las instancias brindadas. 
