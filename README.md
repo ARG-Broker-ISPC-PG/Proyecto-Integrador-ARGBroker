@@ -11,7 +11,7 @@ Trabajar de forma organizada con el equipo para cumplir con los objetivos establ
 
 - Esperon Paul Yasser 
 - Cocconi Fabricio Andrés 
-- Delosanto Adriel 
+- Delosanto Adriel (ok) 
 - Gibaut Carrizo Fabricio Agustin 
 - Carrizo Amparo 
 - Gonzalez Lara Daniel esteban 
