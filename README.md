@@ -15,7 +15,7 @@ Trabajar de forma organizada con el equipo para cumplir con los objetivos establ
 - Gibaut Carrizo Fabricio Agustin 
 - Carrizo Amparo 
 - Gonzalez Lara Daniel esteban 
-- Gutierrez Francisco 
+- Gutierrez Francisco (ok)
 
 
 **Objetivos del Proyecto:**
