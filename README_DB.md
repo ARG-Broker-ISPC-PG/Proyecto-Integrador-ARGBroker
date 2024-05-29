@@ -31,7 +31,6 @@ Documento que contenga el modelo relacional resultante y la documentación del d
 la base de datos. 
 
 
-
 ## Base de datos
 
 Basándose en los requerimientos funcionales del proyecto, se solicita realizar el diseño de la base de datos para la aplicación ARGBroker Demo. En esta etapa, se deberá:
@@ -133,4 +132,74 @@ A continuación, aplicamos el proceso de normalización para asegurar que las en
 - `tipo` (compra/venta)
 - `simbolo` (FK a Accion)
 - `id_usuario` (FK a Usuario)
-- `cantid
+- `cantidad`
+- `precio`
+- `fecha`
+- `comision`
+
+**Portafolio**
+- `id_portafolio` (PK)
+- `id_usuario` (FK a Usuario)
+
+**Portafolio_Accion**
+- `id_portafolio` (FK a Portafolio)
+- `simbolo` (FK a Accion)
+- `cantidad`
+- `valor_comprometido`
+- `ganancia_perdida`
+
+### Documentación del Diseño de la Base de Datos
+
+**Tabla Usuario**
+- **Descripción:** Almacena la información de los usuarios que utilizan la aplicación.
+- **Atributos:**
+  - `id_usuario`: Identificador único del usuario.
+  - `nombre`: Nombre del usuario.
+  - `email`: Correo electrónico del usuario.
+  - `saldo_inicial`: Saldo inicial asignado al usuario.
+
+**Tabla Accion**
+- **Descripción:** Contiene la información de las acciones de empresas argentinas.
+- **Atributos:**
+  - `simbolo`: Símbolo único de la acción.
+  - `nombre_empresa`: Nombre de la empresa.
+  - `ultimo_operado`: Último valor operado.
+  - `cantidad_compra_diaria`: Cantidad de acciones compradas en el día.
+  - `precio_compra_actual`: Precio de compra actual.
+  - `precio_venta_actual`: Precio de venta actual.
+  - `cantidad_venta_diaria`: Cantidad de acciones vendidas en el día.
+  - `apertura`: Precio de apertura.
+  - `minimo_diario`: Precio mínimo diario.
+  - `maximo_diario`: Precio máximo diario.
+  - `ultimo_cierre`: Último precio de cierre.
+
+**Tabla Transaccion**
+- **Descripción:** Registra las transacciones de compra y venta de acciones realizadas por los usuarios.
+- **Atributos:**
+  - `id_transaccion`: Identificador único de la transacción.
+  - `tipo`: Tipo de transacción (compra/venta).
+  - `simbolo`: Símbolo de la acción involucrada.
+  - `id_usuario`: Identificador del usuario que realiza la transacción.
+  - `cantidad`: Cantidad de acciones compradas o vendidas.
+  - `precio`: Precio al que se realizó la transacción.
+  - `fecha`: Fecha de la transacción.
+  - `comision`: Comisión del broker aplicada a la transacción.
+
+**Tabla Portafolio**
+- **Descripción:** Representa el portafolio de inversiones de un usuario.
+- **Atributos:**
+  - `id_portafolio`: Identificador único del portafolio.
+  - `id_usuario`: Identificador del usuario propietario del portafolio.
+
+**Tabla Portafolio_Accion**
+- **Descripción:** Relaciona los portafolios con las acciones que contienen.
+- **Atributos:**
+  - `id_portafolio`: Identificador del portafolio.
+  - `simbolo`: Símbolo de la acción.
+  - `cantidad`: Cantidad de acciones en el portafolio.
+  - `valor_comprometido`: Valor comprometido en esas acciones.
+  - `ganancia_perdida`: Ganancia o pérdida registrada en esas acciones.
+
+### Suposiciones y Aclaraciones
+- La relación entre Portafolio y Accion se interpretó como muchos a muchos para permitir que un portafolio pueda contener múltiples acciones y una acción pueda estar en múltiples portafolios. Esta relación se implementó mediante la tabla intermedia `Portafolio_Accion`.
+- La comisión del broker se calculó como un atributo en la tabla `Transaccion` para simplificar las consultas y operaciones relacionadas.
